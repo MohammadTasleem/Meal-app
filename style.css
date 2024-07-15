@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202121;
+    margin: 5;
+    padding: 0;
+    border:  solid #100f0f;
+    border-radius: 10px;
+  }
+  
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dc72a0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    margin-bottom: 20px;
+    border: solid #0b0b0b;
+    margin-bottom: 50px;
+  }
+  
+  .meal {
+    background-color:wheat;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .meal h3 {
+    margin-top: 0;
+  }
+  
+  .meal img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .meal button {
+    margin-right: 10px;
+  }
+  
+  #meal-title {
+    text-align: center;
+    color: rgb(32, 30, 30);
+    margin-top: 20px;
+  }
+  
+  #meal-image {
+    display: block;
+    max-width: 50%;
+
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  #meal-instructions {
+    white-space: pre-wrap; /* Preserves line breaks in the instructions text */
+    padding: 20px;
+    background-color: #f0e9e9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #favorite-meals .meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #favorite-meals .meal h3 {
+    flex-grow: 2;
+    
+    margin-bottom: 10px;
+  }
+  
